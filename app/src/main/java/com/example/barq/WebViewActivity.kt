@@ -52,6 +52,11 @@ class WebViewActivity : AppCompatActivity() {
             }
         }
 
+        // ── منع Android من تطبيق الوضع الداكن القسري على WebView ──
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            webView.isForceDarkAllowed = false
+        }
+
         // ── WebViewClient ─────────────────────────────────────────
         webView.webViewClient = object : WebViewClient() {
 
