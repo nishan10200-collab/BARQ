@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Barq</string>
+    <string name="offline">ضبط محلي</string>
+    <string name="online">ضبط انترنت</string>
+    <string name="failed_to_load_the_page">
+تأكد من الاتصال بالانترنت من اجل ضبط الانترنت\n
+تأكد من الاتصال بشبكة BARQ من اجل الضبط المحلي
+</string>
+    <string name="error_title">تأكد من انك متصل بالشبكة</string>
+</resources>
