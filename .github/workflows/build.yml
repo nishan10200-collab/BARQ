@@ -10,7 +10,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Unzip project
-        run: unzip barq-complete.zip -d project
+       run: unzip barq-start.zip -d project
       - name: Make gradlew executable
         run: chmod +x project/gradlew
       - name: Build APK
