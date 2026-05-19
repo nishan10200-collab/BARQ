@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         button1.setOnClickListener {
             // يفتح صفحة البوابة الذكية
-            openWebView("https://barqmax.net/app/start.html")
+            openWebView("https://barqmax.net/app/login.html")
         }
 
         button2.setOnClickListener {
