@@ -1,0 +1,4 @@
+<resources>
+    <!-- نفس الثيم في الوضع الداكن — لا تغيير -->
+    <style name="Theme.Barq" parent="Base.Theme.Barq" />
+</resources>

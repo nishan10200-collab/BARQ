@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Barq" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:fontFamily">@font/tajawal</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">#0f172a</item>
+        <item name="android:navigationBarColor">#0f172a</item>
+    </style>
+    <style name="Theme.Barq" parent="Base.Theme.Barq" />
+</resources>
